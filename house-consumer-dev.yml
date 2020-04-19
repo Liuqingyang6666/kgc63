@@ -1,4 +1,4 @@
-token: abcdef
+token: aaaa
 server:
   port: 9001
 eureka:
