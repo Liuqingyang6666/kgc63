@@ -1,1 +1,14 @@
 token: abcdef
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:ok@localhost:7001/eureka/
+spring:
+  application:
+    name: house-consumer
+  mvc:
+    view:
+      suffix: .html
+    static-path-pattern: /static/**
